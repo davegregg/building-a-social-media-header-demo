@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(235, 235, 235);
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 52.983px;
+    background-color: white;
+    border-bottom: 1px solid lightgrey;
+}
+
+#logo, input[name="search"], header nav {
+    display: inline;
+}
+
+nav ul {
+    display: inline;
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+}
